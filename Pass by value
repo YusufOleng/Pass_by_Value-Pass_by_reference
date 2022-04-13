@@ -1,0 +1,25 @@
+class MyTes
+{
+    public int x;
+}
+
+class Program
+{
+    static void Kuadrat(MyTes mcObj)
+    {
+        mcObj.x = mcObj.x * mcObj.x;
+    }
+
+    static void Main(string[] args)
+    {
+        MyTes yoi = new MyTes();
+
+        yoi.x = 5;
+
+        Kuadrat(yoi);
+
+        Console.WriteLine(yoi.x);
+
+        Console.ReadLine();
+    }
+}
