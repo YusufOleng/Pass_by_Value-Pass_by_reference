@@ -17,8 +17,8 @@ using namespace std;
 	}
 	void NumberManipulator::Main(vector<string>){
 		NumberManipulator *n = new NumberManipulator();
-		int a = 100;
-		int b = 200;
+		int a = 50;
+		int b = 100;
 
 		/*memanggil function untuk menukar nilai */
 		n->swap(a, b);
@@ -30,18 +30,18 @@ using namespace std;
 	}
 
 	int main(){
-		int a = 100;
-		int b = 200;
+		int a = 50;
+		int b = 100;
 
 		NumberManipulator number1;
 		NumberManipulator number2;
 		NumberManipulator number3;
 		NumberManipulator number4;
 
-		number1.swap(100,200);
-		number2.swap(100,200);
-		number3.swap(100,200);
-		number4.swap(100,200);
+		number1.swap(50,100);
+		number2.swap(50,100);
+		number3.swap(50,100);
+		number4.swap(50,100);
 
 		cout << "sebelum menukar, nilai a : " << a <<endl;
 		cout << "sebelum menukar, nilai b : " << b <<endl;
