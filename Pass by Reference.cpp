@@ -21,7 +21,7 @@ void Program::Kuadrat(int &x){
 
 void Program::Main()
 {
-	int a = 3;
+	int a = 6;
 	Kuadrat(a);
 	cout << a <<endl;
 }
